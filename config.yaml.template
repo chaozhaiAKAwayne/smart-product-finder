@@ -1,0 +1,20 @@
+# Smart Product Finder Configuration Template
+# Copy this file to config.yaml and fill in your API key
+
+# Claude API Configuration
+claude:
+  api_key: "your-api-key-here"  # Replace with your Claude API key
+  model: "claude-sonnet-4-5-20250929"
+
+# Browser Configuration
+browser:
+  headless: false    # false=show browser window, true=run in background
+  timeout: 30000     # Page load timeout in milliseconds
+
+# Search Configuration
+search:
+  max_results_per_platform: 10  # Maximum results per platform
+  platforms:
+    - jd        # JD.com
+    - taobao    # Taobao
+    - pdd       # Pinduoduo
